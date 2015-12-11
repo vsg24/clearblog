@@ -30,8 +30,9 @@ CLEARBlog uses a "DB First" approach so you also need to create a database and i
 
 Finally you need to edit the Web.config file. You need to replace the connection string with the one for your database.
 
-You can login with the default user login info at `/admin`:
+You can now login with the default user at `/admin`:
 
+Default User Login Info:
 Email:
 
     admin@example.com
@@ -42,7 +43,7 @@ Password:
 
 **You MUST change default user values ASAP.**
 
-***Recomended:*** There are a couple of options that can be customized. Including the language, blog title, number of posts in each page, blog URL (Should end with slash) and more.... They are available at the end of the Web,config file.
+***Recomended:*** There are a couple of options that can be customized. Including the language, blog title, number of posts in each page, blog URL (Should end with slash) and more.... They are available at the end of the Web.config file.
 
 ---
 
