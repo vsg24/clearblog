@@ -33,6 +33,7 @@ Finally you need to edit the Web.config file. You need to replace the connection
 You can now login with the default user at `/admin`:
 
 Default User Login Info:
+
 Email:
 
     admin@example.com

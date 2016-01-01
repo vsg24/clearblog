@@ -1,0 +1,59 @@
+CLEARBlog changelog:
+
+v1.3:
+-original release
+
+v1.3 rev 2 (reupload):
+-addded readme and new license file
+-added new example template for connection string in web.config
+
+v1.4:
+-added ability to remove comments in articles index and edit article page
+-new footer for admin dashboard
+
+v1.5:
+-fixed articlecr extension method
+-added link to tags in articles meta (index and single)
+-fixed css style for ul and or
+-added xml brush for syntaxhighlighter (use it for both html and xml)
+-experimental fix for datetimes in Persian culture
+
+v1.6:
+-fixed a bug where articles would show in blog frontend regardless of their status
+-*added auto-save feature when creating a new article
+-fixed a bug where "Meta Description", "Meta Keywords" and "Notes" would not save when creating
+an article using "Draft" button
+-improved and extended client side validation when creating an article
+-added robots.txt to clearblog root
+
+* in order to use this feature you must first save the article with "Draft" button. this will
+both save the article and set an interval for auto-save system (currently 60 seconds). this interval
+can be cleared by clicking on the interval notification (under "Notes")
+
+v1.6.1:
+-added resource strings for auto-save notifications
+-added auto-save to edit articles page (interval is every 60 seconds)
+
+v1.6.2:
+-removed a useless "Delete" button from bloger users page
+-improved article index page in default theme
+
+v1.7:
+-added client side verification for new comment form to default theme
+-improved styles in single article page
+
+v1.7.1:
+-url slugs in article and page management are now links to the corresponding article/page
+-improved styles of the default theme
+
+v1.8:
+-several changes were made to the behaviour of buttons in create article page in order to avoid certain issues
+-added a fix for creating an article with a slug that's already in the database
+-added experimental support for responsive images in default theme (using Twitter Bootstraps 'img-responsive')
+-changed order of articles in article management list in admin area
+
+v1.8.1:
+-fixed an issue when articles would be counted in the monthly widget regardless of their status
+
+v1.8.2:
+-fixed a bug where search result would contain duplicates
