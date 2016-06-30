@@ -1,5 +1,7 @@
 # CLEARblog
 
+### **NOTE:** CLEARBlog is no longer maintained.
+<br>
 A simple and beautiful blogging app powered by ASP.NET MVC5, EF6, MSSQL, Bootstrap 3.x, jQuery 2.x and other industry level tools and standards.
 
 Key features of CLEARblog:
